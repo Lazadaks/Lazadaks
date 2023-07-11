@@ -1,0 +1,23 @@
+.search-form input {
+  width: 1000px; /* Adjust the width as per your requirement */
+  height: 40px; /* Adjust the height as per your requirement */
+
+}
+
+.search-form button {
+  height: 40px; /* Match the height of the input element */
+}
+.image-container {
+  position: relative;
+  overflow: hidden;
+}
+
+.image-container img {
+  width: 150px; /* Adjust the width and height as per your image */
+  height: 150px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.image-container img:hover {
+  transform: scale(1.1);
+}
